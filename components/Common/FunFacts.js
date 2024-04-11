@@ -7,31 +7,31 @@ const FunFacts = () => {
                 <div className="row align-items-center">
                     <div className="col-lg-3 col-sm-6">
                         <div className="single-fun-fact">
-                            <h3>1,984</h3>
-                            <p>Projects Done</p>
+                            <h3>1,000+</h3>
+                            <p>Legal Journeys Supported</p>
                         </div>
                     </div>
 
                     <div className="col-lg-3 col-sm-6">
                         <div className="single-fun-fact">
-                            <h3>10,000</h3>
-                            <p>Loans Increase</p>
+                            <h3>5,000+</h3>
+                            <p>Financial Pathways Paved</p>
                         </div>
                     </div>
 
                     <div className="col-lg-3 col-sm-6">
                         <div className="single-fun-fact">
                             <h3>
-                                100 <span className="sign-icon">%</span>
+                                100<span className="sign-icon">%</span>
                             </h3>
-                            <p>Happy Clients</p>
+                            <p>Peace of Mind Achieved</p>
                         </div>
                     </div>
 
                     <div className="col-lg-3 col-sm-6">
                         <div className="single-fun-fact">
-                            <h3>25</h3>
-                            <p>Awards Won</p>
+                            <h3>20+</h3>
+                            <p>Years of Combined Expertise</p>
                         </div>
                     </div>
                 </div>

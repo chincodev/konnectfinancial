@@ -50,30 +50,30 @@ const Footer = () => {
 
                                 <ul className="quick-links">
                                     <li>
-                                        <Link href="/about-us">
-                                            <a>About</a>
+                                        <Link href="/">
+                                            <a>Home</a>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="#">
-                                            <a>Our Performance</a>
+                                        <Link href="/funding">
+                                            <a>Funding</a>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="/faq">
-                                            <a>Help (FAQ)</a>
+                                        <Link href="/calculator">
+                                            <a>Calculator</a>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="/news">
-                                            <a>Blog</a>
+                                        <Link href="/FAQ">
+                                            <a>FAQ</a>
                                         </Link>
                                     </li>
-                                    <li>
+                                    {/* <li>
                                         <Link href="/contact">
                                             <a>Contact</a>
                                         </Link>
-                                    </li>
+                                    </li> */}
                                 </ul>
                             </div>    
                         </div>
@@ -89,16 +89,21 @@ const Footer = () => {
                                         </Link>
                                     </li>
                                     <li>
+                                        <Link href="/apply-now">
+                                            <a>Apply</a>
+                                        </Link>
+                                    </li>
+                                    <li>
                                         <Link href="/privacy-policy">
                                             <a>Privacy Policy</a>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="/terms-condition">
+                                        <Link href="/terms-conditions">
                                             <a>Terms of Service</a>
                                         </Link>
                                     </li>
-                                    <li>
+                                    {/* <li>
                                         <Link href="#">
                                             <a>Business Loans</a>
                                         </Link>
@@ -107,7 +112,7 @@ const Footer = () => {
                                         <Link href="#">
                                             <a>Loan Services</a>
                                         </Link>
-                                    </li>
+                                    </li> */}
                                 </ul>
                             </div>    
                         </div>
@@ -150,7 +155,8 @@ const Footer = () => {
                 <div className="container">
                     <div className="copy-right-content">
                         <p>
-                            Copyright &copy; {currentYear} Leza. Designed By <a href="https://envytheme.com/" target="_blank">EnvyTheme</a>
+                            Copyright &copy; {currentYear} Kaz.
+                             {/* Designed By <a href="https://envytheme.com/" target="_blank">EnvyTheme</a> */}
                         </p>
                     </div>
                 </div>

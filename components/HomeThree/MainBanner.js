@@ -10,13 +10,13 @@ const MainBanner = () => {
                         <div className="row align-items-center">
                             <div className="col-lg-6">
                                 <div className="main-banner-content">
-                                    <h1>The funds have helped us move your business forward</h1>
-                                    <p>Loans are advantageous as a relatively inexpensive way of borrowing money. Start or grow your own business</p>
+                                    <h1>Fast and Fair Pre-Settlement Funding Solutions in California</h1>
+                                    <p>Get quick access to financial relief for pending legal cases. No upfront costs, fair terms, and support from application to settlement.</p>
                                     
                                     <div className="banner-btn">
-                                        <Link href="/services">
+                                        <Link href="/apply-now">
                                             <a className="default-btn">
-                                                View more <span></span>
+                                                Apply Now <span></span>
                                             </a>
                                         </Link>
                                     </div>

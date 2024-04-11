@@ -545,11 +545,11 @@ Navbar Area CSS
 
 .main-navbar .navbar .others-options .option-item::before {
   position: absolute;
-  right: -15px;
+  left: -15px;
   top: 0;
   width: 1px;
   content: '';
-  height: 28px;
+  height: 52px;
   background-color: #dadada;
 }
 

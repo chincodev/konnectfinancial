@@ -11,8 +11,8 @@ const OurProcess = () => {
                                 <div className="icon">
                                     <i className="flaticon-loan"></i>
                                 </div>
-                                <span>Quick</span>
-                                <p>Loan approvals</p>
+                                <span>Legal</span>
+                                <p>Financial Assistance Now</p>
                             </div>
                         </div>
 
@@ -21,8 +21,8 @@ const OurProcess = () => {
                                 <div className="icon">
                                     <i className="flaticon-satisfaction"></i>
                                 </div>
-                                <span>20,000</span>
-                                <p>Customers satisfaction</p>
+                                <span>Secure</span>
+                                <p>Pre-Settlement Funding</p>
                             </div>
                         </div>
 
@@ -31,8 +31,8 @@ const OurProcess = () => {
                                 <div className="icon">
                                     <i className="flaticon-document"></i>
                                 </div>
-                                <span>No prepayment or</span>
-                                <p>hidden fees</p>
+                                <span>Stress-Free</span>
+                                <p>Case Support</p>
                             </div>
                         </div>
                     </div>

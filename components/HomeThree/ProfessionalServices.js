@@ -25,9 +25,9 @@ export default class ProfessionalServices extends Component {
             <div className="best-services-area bg-color ptb-100">
                 <div className="container">
                     <div className="section-title">
-                        <span>Knowledge of the market</span>
-                        <h2>Only the best professional services</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                        {/* <span>Knowledge of the market</span> */}
+                        <h2>Cases We Fund</h2>
+                        <p>We specialize in providing financial assistance for a wide range of legal cases. From personal injury claims to workplace negligence and premises liability, we're here to support plaintiffs in their pursuit of justice.</p>
                     </div>
 
                     <div className="tab services-list-tab">
@@ -37,42 +37,42 @@ export default class ProfessionalServices extends Component {
                                 onClick={(e) => this.openTabSection(e, 'tab1')}
                             >
                                 <i className="flaticon-agriculture"></i>
-                                <span>Agricultural loan</span>
+                                <span>Auto Accidents</span>
                             </li>
 
                             <li
                                 onClick={(e) => this.openTabSection(e, 'tab2')}
                             >
                                 <i className="flaticon-personal"></i>
-                                <span>Personal loan</span>
+                                <span>Pedestrian Accidents</span>
                             </li>
 
                             <li
                                 onClick={(e) => this.openTabSection(e, 'tab3')}
                             >
                                 <i className="flaticon-loan-1"></i>
-                                <span>Business loan</span>
+                                <span>Motorcycle Accidents</span>
                             </li>
 
                             <li
                                 onClick={(e) => this.openTabSection(e, 'tab4')}
                             >
                                 <i className="flaticon-scholarship"></i>
-                                <span>Education loan</span>
+                                <span>Uber Accidents</span>
                             </li>
 
                             <li
                                 onClick={(e) => this.openTabSection(e, 'tab5')}
                             >
                                 <i className="flaticon-loan-2"></i>
-                                <span>House loan</span>
+                                <span>Slip and Fall Cases</span>
                             </li>
 
                             <li
                                 onClick={(e) => this.openTabSection(e, 'tab6')}
                             >
                                 <i className="flaticon-loan-3"></i>
-                                <span>Payday loan</span>
+                                <span>Medical Malpractice Cases</span>
                             </li>
                         </ul>
 
@@ -81,10 +81,10 @@ export default class ProfessionalServices extends Component {
                                 <div className="row align-items-center">
                                     <div className="col-lg-6">
                                         <div className="services-tab-content">
-                                            <h3>About Agricultural loan</h3>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                            <h3>Our Team Is Ready To Help</h3>
+                                            <p>Our experienced team understands the challenges you face and is committed to offering tailored solutions to meet your specific needs. Whether you've been involved in an auto accident, a slip and fall incident, or a medical malpractice case, we're dedicated to helping you navigate through the complexities of your legal journey with confidence and peace of mind.</p>
 
-                                            <h3>Get financing for whatever you need now</h3>
+                                            {/* <h3>Get financing for whatever you need now</h3>
                                             <ul className="list">
                                                 <li>New home</li>
                                                 <li>Home improvement loan</li>
@@ -93,10 +93,10 @@ export default class ProfessionalServices extends Component {
                                             </ul>
                                     
                                             <h3>Agricultural loan - Eligibility</h3>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p> */}
 
-                                            <Link href="/services-details">
-                                                <a className="default-btn">Learn more <span></span></a>
+                                            <Link href="/apply-now">
+                                                <a className="default-btn">Apply Now<span></span></a>
                                             </Link>
                                         </div>
                                     </div>
@@ -113,23 +113,22 @@ export default class ProfessionalServices extends Component {
                                 <div className="row align-items-center">
                                     <div className="col-lg-6">
                                         <div className="services-tab-content">
-                                            <h3>About Personal loan</h3>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                            <h3>Our Team Is Ready To Help</h3>
+                                            <p>Our experienced team understands the challenges you face and is committed to offering tailored solutions to meet your specific needs. Whether you've been involved in an auto accident, a slip and fall incident, or a medical malpractice case, we're dedicated to helping you navigate through the complexities of your legal journey with confidence and peace of mind.</p>
 
-                                            <h3>Get financing for whatever you need now</h3>
+                                            {/* <h3>Get financing for whatever you need now</h3>
                                             <ul className="list">
-                                                
                                                 <li>New home</li>
                                                 <li>Home improvement loan</li>
                                                 <li>Home renovation</li>
                                                 <li>Land purchase</li>
                                             </ul>
-                                        
-                                            <h3>Personal loan - Eligibility</h3>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                    
+                                            <h3>Agricultural loan - Eligibility</h3>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p> */}
 
-                                            <Link href="/services-details">
-                                                <a className="default-btn">Learn more <span></span></a>
+                                            <Link href="/apply-now">
+                                                <a className="default-btn">Apply Now<span></span></a>
                                             </Link>
                                         </div>
                                     </div>
@@ -146,10 +145,10 @@ export default class ProfessionalServices extends Component {
                                 <div className="row align-items-center">
                                     <div className="col-lg-6">
                                         <div className="services-tab-content">
-                                            <h3>About Business loan</h3>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                            <h3>Our Team Is Ready To Help</h3>
+                                            <p>Our experienced team understands the challenges you face and is committed to offering tailored solutions to meet your specific needs. Whether you've been involved in an auto accident, a slip and fall incident, or a medical malpractice case, we're dedicated to helping you navigate through the complexities of your legal journey with confidence and peace of mind.</p>
 
-                                            <h3>Get financing for whatever you need now</h3>
+                                            {/* <h3>Get financing for whatever you need now</h3>
                                             <ul className="list">
                                                 <li>New home</li>
                                                 <li>Home improvement loan</li>
@@ -157,11 +156,11 @@ export default class ProfessionalServices extends Component {
                                                 <li>Land purchase</li>
                                             </ul>
                                     
-                                            <h3>Business loan - Eligibility</h3>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                            <h3>Agricultural loan - Eligibility</h3>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p> */}
 
-                                            <Link href="/services-details">
-                                                <a className="default-btn">Learn more <span></span></a>
+                                            <Link href="/apply-now">
+                                                <a className="default-btn">Apply Now<span></span></a>
                                             </Link>
                                         </div>
                                     </div>
@@ -178,22 +177,22 @@ export default class ProfessionalServices extends Component {
                                 <div className="row align-items-center">
                                     <div className="col-lg-6">
                                         <div className="services-tab-content">
-                                            <h3>About Education loan</h3>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                            <h3>Our Team Is Ready To Help</h3>
+                                            <p>Our experienced team understands the challenges you face and is committed to offering tailored solutions to meet your specific needs. Whether you've been involved in an auto accident, a slip and fall incident, or a medical malpractice case, we're dedicated to helping you navigate through the complexities of your legal journey with confidence and peace of mind.</p>
 
-                                            <h3>Get financing for whatever you need now</h3>
+                                            {/* <h3>Get financing for whatever you need now</h3>
                                             <ul className="list">
                                                 <li>New home</li>
                                                 <li>Home improvement loan</li>
                                                 <li>Home renovation</li>
                                                 <li>Land purchase</li>
                                             </ul>
-                            
-                                            <h3>Education loan - Eligibility</h3>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                    
+                                            <h3>Agricultural loan - Eligibility</h3>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p> */}
 
-                                            <Link href="/services-details">
-                                                <a className="default-btn">Learn more <span></span></a>
+                                            <Link href="/apply-now">
+                                                <a className="default-btn">Apply Now<span></span></a>
                                             </Link>
                                         </div>
                                     </div>
@@ -210,10 +209,10 @@ export default class ProfessionalServices extends Component {
                                 <div className="row align-items-center">
                                     <div className="col-lg-6">
                                         <div className="services-tab-content">
-                                            <h3>About Home Loan</h3>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                            <h3>Our Team Is Ready To Help</h3>
+                                            <p>Our experienced team understands the challenges you face and is committed to offering tailored solutions to meet your specific needs. Whether you've been involved in an auto accident, a slip and fall incident, or a medical malpractice case, we're dedicated to helping you navigate through the complexities of your legal journey with confidence and peace of mind.</p>
 
-                                            <h3>Get financing for whatever you need now</h3>
+                                            {/* <h3>Get financing for whatever you need now</h3>
                                             <ul className="list">
                                                 <li>New home</li>
                                                 <li>Home improvement loan</li>
@@ -221,11 +220,11 @@ export default class ProfessionalServices extends Component {
                                                 <li>Land purchase</li>
                                             </ul>
                                     
-                                            <h3>Home Loan - Eligibility</h3>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                            <h3>Agricultural loan - Eligibility</h3>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p> */}
 
-                                            <Link href="/services-details">
-                                                <a className="default-btn">Learn more <span></span></a>
+                                            <Link href="/apply-now">
+                                                <a className="default-btn">Apply Now<span></span></a>
                                             </Link>
                                         </div>
                                     </div>
@@ -242,10 +241,10 @@ export default class ProfessionalServices extends Component {
                                 <div className="row align-items-center">
                                     <div className="col-lg-6">
                                         <div className="services-tab-content">
-                                            <h3>About Payday loan</h3>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                            <h3>Our Team Is Ready To Help</h3>
+                                            <p>Our experienced team understands the challenges you face and is committed to offering tailored solutions to meet your specific needs. Whether you've been involved in an auto accident, a slip and fall incident, or a medical malpractice case, we're dedicated to helping you navigate through the complexities of your legal journey with confidence and peace of mind.</p>
 
-                                            <h3>Get financing for whatever you need now</h3>
+                                            {/* <h3>Get financing for whatever you need now</h3>
                                             <ul className="list">
                                                 <li>New home</li>
                                                 <li>Home improvement loan</li>
@@ -253,11 +252,11 @@ export default class ProfessionalServices extends Component {
                                                 <li>Land purchase</li>
                                             </ul>
                                     
-                                            <h3>Payday loan - Eligibility</h3>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                            <h3>Agricultural loan - Eligibility</h3>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p> */}
 
-                                            <Link href="/services-details">
-                                                <a className="default-btn">Learn more <span></span></a>
+                                            <Link href="/apply-now">
+                                                <a className="default-btn">Apply Now<span></span></a>
                                             </Link>
                                         </div>
                                     </div>

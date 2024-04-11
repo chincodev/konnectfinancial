@@ -14,30 +14,30 @@ const AboutCompany = () => {
 
                     <div className="col-lg-6">
                         <div className="about-content">
-                            <span>About company</span>
-                            <h3>We have been working very efficiently with loan and funding for 25 years.</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                            <strong>In business, we focus on 3 things.</strong>
+                            {/* <span></span> */}
+                            <h3>About Kaz Enterprises</h3>
+                            <p>We've been a cornerstone in the legal funding industry for a number of years, offering invaluable support to plaintiffs in need. With a commitment to transparency, integrity, and client-centric services, we ensure every individual receives the assistance they deserve throughout their legal journey.</p>
+                            <strong>We provide:</strong>
 
                             <ul className="about-list">
                                 <li>
                                     <i className="flaticon-check"></i>
-                                    Useful info
+                                    Pre-settlement funding solutions tailored to your unique needs.
                                 </li>
                                 <li>
                                     <i className="flaticon-check"></i>
-                                    Reliability
+                                    Transparent and reliable financial assistance throughout your legal case.
                                 </li>
                                 <li>
                                     <i className="flaticon-check"></i>
-                                    Innovation
+                                    Exceptional customer service and support from application to settlement.
                                 </li>
                             </ul>
 
                             <div className="about-btn">
-                                <Link href="/about-us">
+                                <Link href="/apply-now">
                                     <a className="default-btn">
-                                        View more <span></span>
+                                        Apply Now <span></span>
                                     </a>
                                 </Link>
                             </div>

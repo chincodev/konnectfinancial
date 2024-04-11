@@ -22,23 +22,27 @@ const AboutCompany = () => {
 
                     <div className="col-lg-5">
                         <div className="about-content">
-                            <span>About company</span>
-                            <h3>We have been working very efficiently with loan and funding for 25 years.</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.</p>
-                            <strong>In business, we focus on 3 things.</strong>
+                            <span>Quick and Easy Process</span>
+                            <h3>Help For All Types Of Cases</h3>
+                            <p>Our funding solutions cater to diverse legal cases, offering support and financial relief tailored to your unique situation and needs.</p>
+                            {/* <strong>In business, we focus on 3 things.</strong> */}
 
                             <ul className="about-list">
                                 <li>
                                     <i className="flaticon-check"></i>
-                                    Useful info
+                                    Personal Injury Cases
                                 </li>
                                 <li>
                                     <i className="flaticon-check"></i>
-                                    Reliability
+                                    Workplace Accidents and Negligence Claims
                                 </li>
                                 <li>
                                     <i className="flaticon-check"></i>
-                                    Innovation
+                                    Premises Liability (Slip and Fall) Cases
+                                </li>
+                                <li>
+                                    <i className="flaticon-check"></i>
+                                    Medical Malpractice Cases
                                 </li>
                             </ul>
 

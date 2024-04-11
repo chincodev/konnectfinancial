@@ -9,13 +9,13 @@ const MainBanner = () => {
                     <div className="container-fluid">
                         <div className="main-banner-content">
                             <span>We are here for</span>
-                            <h1>Start or grow your own business</h1>
-                            <p>Loans are advantageous as a relatively inexpensive way of borrowing money. We believe in those made to do more.</p>
+                            <h1>Fast and Fair Pre-Settlement Funding Solutions in California</h1>
+                            <p>Get quick access to financial relief for pending legal cases. No upfront costs, fair terms, and support from application to settlement.</p>
                             
                             <div className="banner-btn">
-                                <Link href="/services">
+                                <Link href="/apply-now">
                                     <a className="default-btn">
-                                        View more <span></span>
+                                        Apply now <span></span>
                                     </a>
                                 </Link>
                             </div>
@@ -61,8 +61,8 @@ const MainBanner = () => {
                                 <div className="icon">
                                     <i className="flaticon-loan"></i>
                                 </div>
-                                <span>Quick</span>
-                                <p>Loan approvals</p>
+                                <span>Legal</span>
+                                <p>Financial Assistance Now</p>
                             </div>
                         </div>
 
@@ -71,8 +71,8 @@ const MainBanner = () => {
                                 <div className="icon">
                                     <i className="flaticon-satisfaction"></i>
                                 </div>
-                                <span>20,000</span>
-                                <p>Customers satisfaction</p>
+                                <span>Secure</span>
+                                <p>Pre-Settlement Funding</p>
                             </div>
                         </div>
 
@@ -81,8 +81,8 @@ const MainBanner = () => {
                                 <div className="icon">
                                     <i className="flaticon-document"></i>
                                 </div>
-                                <span>No prepayment or</span>
-                                <p>hidden fees</p>
+                                <span>Stress-Free</span>
+                                <p>Case Support</p>
                             </div>
                         </div>
                     </div>

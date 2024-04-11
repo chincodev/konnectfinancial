@@ -65,7 +65,7 @@ const ApplyForFunding = () => {
                                             <polyline points="1.5 6 4.5 9 10.5 1"></polyline>
                                         </svg>
                                     </span>
-                                    <span>I have read and agree to Clearbanc’s <Link href="/privacy-policy"><a>Privacy Policy</a></Link> and  <Link href="/terms-condition"><a>Terms of Service</a></Link></span>
+                                    <span>I have read and agree to Clearbanc’s <Link href="/privacy-policy"><a>Privacy Policy</a></Link> and  <Link href="/terms-conditions"><a>Terms of Service</a></Link></span>
                                 </label>
                             </div>
                         </div>

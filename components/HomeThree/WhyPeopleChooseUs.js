@@ -5,9 +5,9 @@ const WhyPeopleChooseUs = () => {
         <div className="process-area bg-color pb-70">
             <div className="container">
                 <div className="section-title">
-                    <span>Transparent process</span>
-                    <h2>Why people choose us</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                    <span>Quick and Easy Process</span>
+                    <h2>Help For All Types Of Cases</h2>
+                    <p>Our funding solutions cater to diverse legal cases, offering support and financial relief tailored to your unique situation and needs.</p>
                 </div>
 
                 <div className="row">
@@ -17,8 +17,8 @@ const WhyPeopleChooseUs = () => {
                                 <div className="icon">
                                     <i className="flaticon-guarantee"></i>
                                 </div>
-                                <h3>Guarantee</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+                                <h3>Personal Injury Cases</h3>
+                                {/* <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p> */}
                             </div>
                         </div>
                     </div>
@@ -29,8 +29,8 @@ const WhyPeopleChooseUs = () => {
                                 <div className="icon">
                                     <i className="flaticon-speed"></i>
                                 </div>
-                                <h3>Speed</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+                                <h3>Workplace Accidents and Negligence Claims</h3>
+                                {/* <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p> */}
                             </div>
                         </div>
                     </div>
@@ -41,8 +41,8 @@ const WhyPeopleChooseUs = () => {
                                 <div className="icon">
                                     <i className="flaticon-reliability"></i>
                                 </div>
-                                <h3>Reliability</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+                                <h3>Premises Liability (Slip and Fall) Cases</h3>
+                                {/* <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p> */}
                             </div>
                         </div>
                     </div>
@@ -53,8 +53,8 @@ const WhyPeopleChooseUs = () => {
                                 <div className="icon">
                                     <i className="flaticon-user-experience"></i>
                                 </div>
-                                <h3>Experience</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+                                <h3>Medical Malpractice Cases</h3>
+                                {/* <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p> */}
                             </div>
                         </div>
                     </div>
