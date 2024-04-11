@@ -65,7 +65,7 @@ const Navbar = () => {
                                         </Link>
                                     </li>
                                     <li className="nav-item">
-                                        <Link href="/calculator" activeClassName="active">
+                                        <Link href="/loan-calculator" activeClassName="active">
                                             <a onClick={toggleNavbar} className="nav-link">Calculator</a>
                                         </Link>
                                     </li>
