@@ -13,10 +13,10 @@ const Funding = () => {
             <Navbar />
 
             <PageBanner 
-                pageTitle="Funding" 
+                pageTitle="Pre-Settlement Funding" 
                 homePageUrl="/" 
                 homePageText="Home" 
-                activePageText="Funding" 
+                activePageText="Pre-Settlement Funding" 
                 imgClass="item-bg-5" 
             /> 
 

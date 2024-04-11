@@ -6,7 +6,7 @@ const HowItWorks = () => {
             <div className="container">
                 <div className="section-title">
                     <span>How it works</span>
-                    <h2>The funds have helped us move our business forward</h2>
+                    <h2>Pre-settlement Funding Made Simple</h2>
                 </div>
 
                 <div className="row">
@@ -15,7 +15,7 @@ const HowItWorks = () => {
                             <div className="icon">
                                 <i className="flaticon-user"></i>
                             </div>
-                            <h3>Connect Your <br /> Accounts</h3>
+                            <h3>Easy <br /> Application</h3>
                         </div>
                     </div>
 
@@ -24,7 +24,7 @@ const HowItWorks = () => {
                             <div className="icon">
                                 <i className="flaticon-reciever"></i>
                             </div>
-                            <h3>Receive Your <br /> Funding</h3>
+                            <h3>Review By Our <br /> Team</h3>
                         </div>
                     </div>
 
@@ -33,7 +33,7 @@ const HowItWorks = () => {
                             <div className="icon">
                                 <i className="flaticon-growth"></i>
                             </div>
-                            <h3>Grow Your <br /> Business</h3>
+                            <h3>Receive Your <br /> Funding</h3>
                         </div>
                     </div>
                 </div>

@@ -6,8 +6,8 @@ const ApplyForFunding = () => {
         <div className="funding-form-area ptb-100">
             <div className="container">
                 <div className="section-title">
-                    <span>Apply for funding</span>
-                    <h2>Get funded from the comfort of your home</h2>
+                    <span>Apply For Funding</span>
+                    <h2>Get Funded From The Comfort Of Your Home</h2>
                 </div>
 
                 <div className="row">
@@ -29,28 +29,28 @@ const ApplyForFunding = () => {
 
                             <div className="col-lg-6">
                                 <div className="form-group">
-                                    <label>Business Website</label>
+                                    <label>Email Address</label>
+                                    <input type="email" className="form-control" />
+                                </div>
+                            </div>
+
+                            <div className="col-lg-6">
+                                <div className="form-group">
+                                    <label>Date of Accident</label>
+                                    <input type="date" className="form-control" />
+                                </div>    
+                            </div>
+
+                            <div className="col-lg-6">
+                                <div className="form-group">
+                                    <label>Funding Amount Requested</label>
                                     <input type="text" className="form-control" />
                                 </div>
                             </div>
 
                             <div className="col-lg-6">
                                 <div className="form-group">
-                                    <label>Work Email*</label>
-                                    <input type="email" className="form-control" />
-                                </div>    
-                            </div>
-
-                            <div className="col-lg-6">
-                                <div className="form-group">
-                                    <label>Password</label>
-                                    <input type="password" className="form-control" />
-                                </div>
-                            </div>
-
-                            <div className="col-lg-6">
-                                <div className="form-group">
-                                    <label>Monthly Revenue*</label>
+                                    <label>Have You Received Funding Before?</label>
                                     <input type="text" className="form-control" />
                                 </div>
                             </div>

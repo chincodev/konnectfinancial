@@ -13,23 +13,27 @@ const AboutFunding = () => {
 
                     <div className="col-lg-6">
                         <div className="funding-content">
-                            <span>About funding</span>
-                            <h3>A fast approach to business financing. Business funding made fast and simple.</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                            <strong>We Reimagined Fundraising.</strong>
+                            {/* <span>Pre-Settlement Funding</span> */}
+                            <h3>Pre-Settlement Funding</h3>
+                            <p>We fund a variety of cases, including personal injury, premise liability, and medical malpractice cases.</p>
+                            {/* <strong>We Reimagined Fundraising.</strong> */}
 
                             <ul className="funding-list">
                                 <li>
                                     <span>(1)</span>
-                                    <b>Fast</b> Get a term sheet in 20 min
+                                    <b>Personal</b> Injury Cases
                                 </li>
                                 <li>
                                     <span>(2)</span>
-                                    <b>Flexible</b> Our data driven investments range from $1K to $1M
+                                    <b>Workplace</b> Accidents and Negligence Claims
                                 </li>
                                 <li>
                                     <span>(3)</span>
-                                    <b>Fair</b> No equity or personal guarantee
+                                    <b>Premises</b> Liability Cases
+                                </li>
+                                <li>
+                                    <span>(4)</span>
+                                    <b>Medical</b> Malpractice Cases
                                 </li>
                             </ul>
                         </div>
