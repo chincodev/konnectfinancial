@@ -12,29 +12,22 @@ const LoanCalculatorForm = () => {
 
                     <form>
                         <div className="form-group">
-                            <label>Loan Amount</label>
+                            <label>How much is your case worth?</label>
                             <input type="text" className="form-control" />
                         </div>
                         <div className="form-group">
-                            <label>Interest Rate (%)</label>
+                            <label>How much money do you need now?</label>
                             <input type="text" className="form-control" />
                         </div>
                         <div className="form-group">
-                            <label>Loan Term (Years)</label>
-                            <select className="form-select" id="Years">
-                                <option>Select the year</option>
-                                <option>1 Year</option>
-                                <option>2 Years</option>
-                                <option>3 Years</option>
-                                <option>4 Years</option>
-                                <option>5 Years</option>
-                            </select>
+                            <label>What is the attorney fees percentage?</label>
+                            <input type="text" className="form-control" />
                         </div>
                         <div className="form-group">
-                            <label>Loan Start Date</label>
-                            <input type="date" className="form-control" />
+                            <label>How many months is the case expected to last?</label>
+                            <input type="text" className="form-control" />
                         </div>
-
+                    
                         <div className="calculator-btn">
                             <button type="submit" className="btn btn-one">View schedule</button>
                             <button type="submit" className="btn btn-two">Download schedule</button>
