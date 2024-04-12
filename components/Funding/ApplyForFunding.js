@@ -44,7 +44,7 @@ const ApplyForFunding = () => {
         e.preventDefault();
         try {
             setSending(true);
-            const url = `${baseUrl}/api/get_funding`;
+            const url = `${window.location.origin}/api/get_funding`;
             const { 
                 fullname,
                 phone_number,

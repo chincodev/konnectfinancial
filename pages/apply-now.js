@@ -54,7 +54,7 @@ const ApplyNow = () => {
         e.preventDefault();
         try {
             setSending(true);
-            const url = `${baseUrl}/api/loan_application`;
+            const url = `${window.location.origin}/api/loan_application`;
             const { 
                 loan_amount,
                 first_name,
