@@ -38,7 +38,7 @@ const FaqForm = () => {
     const handleSubmit = async e => {
         e.preventDefault();
         try {
-            const url = `${baseUrl}/api/contact`;
+            const url = `${window.location.origin}/api/contact`;
             const { name, email, number, subject, text } = contact;
             const payload = { name, email, number, subject, text };
             const response = await axios.post(url, payload);

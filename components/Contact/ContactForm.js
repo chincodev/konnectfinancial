@@ -42,9 +42,9 @@ const ContactForm = () => {
         e.preventDefault();
         try {
             setSending(true);
-            console.log(baseUrl);
+ 
             const url = `${window.location.origin}/api/contact`;
-            console.log(baseUrl);
+     
             const { name, email, number, subject, text } = contact;
             const payload = { name, email, number, subject, text };
             await axios.post(url, payload);
