@@ -91,7 +91,7 @@ const ContactForm = () => {
                                         <div className="form-group">
                                             <label>Email Address</label>
                                             <input 
-                                                type="text" 
+                                                type="email" 
                                                 name="email" 
                                                 placeholder="Email" 
                                                 className="form-control" 
