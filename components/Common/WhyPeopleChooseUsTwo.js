@@ -25,9 +25,9 @@ const WhyPeopleChooseUsTwo = () => {
                 <div className="row">
                     <div className="col-lg-6">
                         <div className="choose-title">
-                            <span>Transparent process</span>
-                            <h2>Why people choose us</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            <span>Quick and Easy Process</span>
+                            <h2>Funding All Types Of Personal Injury Cases</h2>
+                            <p>We fund a wide variety of personal injury cases. Don’t see your case on the list? Give us a call at 818-818-8181 for a free consultation.</p>
                         </div>
 
                         <div className="choose-image">
@@ -51,7 +51,7 @@ const WhyPeopleChooseUsTwo = () => {
                                     <div className="icon">
                                         <i className="flaticon-guarantee"></i>
                                     </div>
-                                    <h3>Guarantee</h3>
+                                    <h3>Motor Vehicle Accident Cases</h3>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
                                 </div>
                             </div>
@@ -61,7 +61,7 @@ const WhyPeopleChooseUsTwo = () => {
                                     <div className="icon">
                                         <i className="flaticon-speed"></i>
                                     </div>
-                                    <h3>Speed</h3>
+                                    <h3>Workplace Accidents and Negligence Claims</h3>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
                                 </div>
                             </div>
@@ -71,7 +71,7 @@ const WhyPeopleChooseUsTwo = () => {
                                     <div className="icon">
                                         <i className="flaticon-reliability"></i>
                                     </div>
-                                    <h3>Reliability</h3>
+                                    <h3>Premises Liability Cases </h3>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
                                 </div>
                             </div>
@@ -81,7 +81,7 @@ const WhyPeopleChooseUsTwo = () => {
                                     <div className="icon">
                                         <i className="flaticon-user-experience"></i>
                                     </div>
-                                    <h3>Experience</h3>
+                                    <h3>Medical Malpractice Cases</h3>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
                                 </div>
                             </div>

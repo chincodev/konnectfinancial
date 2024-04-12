@@ -180,7 +180,7 @@ const ContactForm = () => {
                                     <i className="flaticon-pin"></i>
                                 </div>
                                 <h4>Address</h4>
-                                <span>6890 Blvd, The Bronx, NY 1058 New York, USA</span>
+                                <span>7111 Santa Monica Blvd, Ste B197, West Hollywood, CA 90046</span>
                             </div>
 
                             <div className="info-box">

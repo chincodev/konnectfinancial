@@ -16,7 +16,7 @@ const Footer = () => {
                                     </Link>
                                 </div>
 
-                                <p>Lorem ipsum dolor sit amet, consec tetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                <p>LExperienced legal funding provider offering quick, transparent solutions. Empowering plaintiffs with fast cash for pending settlements. Reliable and customer-focused.</p>
 
                                 <ul className="social">
                                     <li><b>Follow us:</b></li>
@@ -123,7 +123,7 @@ const Footer = () => {
 
                                 <div className="info-contact">
                                     <i className="flaticon-pin"></i>
-                                    <span>6890 Blvd, The Bronx, NY 1058 New York, USA</span>
+                                    <span>7111 Santa Monica Blvd, Ste B197, West Hollywood, CA 90046</span>
                                 </div>
 
                                 <div className="info-contact">
