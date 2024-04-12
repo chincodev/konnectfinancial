@@ -33,43 +33,43 @@ export default class ProfessionalServices extends Component {
                     <div className="tab services-list-tab">
                         <ul className="tabs-list">
                             <li
-                                className="current"
-                                onClick={(e) => this.openTabSection(e, 'tab1')}
+                                // className="current"
+                                // onClick={(e) => this.openTabSection(e, 'tab1')}
                             >
                                 <i className="flaticon-agriculture"></i>
                                 <span>Auto Accidents</span>
                             </li>
 
                             <li
-                                onClick={(e) => this.openTabSection(e, 'tab2')}
+                                // onClick={(e) => this.openTabSection(e, 'tab2')}
                             >
                                 <i className="flaticon-personal"></i>
                                 <span>Pedestrian Accidents</span>
                             </li>
 
                             <li
-                                onClick={(e) => this.openTabSection(e, 'tab3')}
+                                // onClick={(e) => this.openTabSection(e, 'tab3')}
                             >
                                 <i className="flaticon-loan-1"></i>
                                 <span>Motorcycle Accidents</span>
                             </li>
 
                             <li
-                                onClick={(e) => this.openTabSection(e, 'tab4')}
+                                // onClick={(e) => this.openTabSection(e, 'tab4')}
                             >
                                 <i className="flaticon-scholarship"></i>
                                 <span>Uber Accidents</span>
                             </li>
 
                             <li
-                                onClick={(e) => this.openTabSection(e, 'tab5')}
+                                // onClick={(e) => this.openTabSection(e, 'tab5')}
                             >
                                 <i className="flaticon-loan-2"></i>
                                 <span>Slip and Fall Cases</span>
                             </li>
 
                             <li
-                                onClick={(e) => this.openTabSection(e, 'tab6')}
+                                // onClick={(e) => this.openTabSection(e, 'tab6')}
                             >
                                 <i className="flaticon-loan-3"></i>
                                 <span>Medical Malpractice Cases</span>

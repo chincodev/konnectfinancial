@@ -18,29 +18,7 @@ const Footer = () => {
 
                                 <p>LExperienced legal funding provider offering quick, transparent solutions. Empowering plaintiffs with fast cash for pending settlements. Reliable and customer-focused.</p>
 
-                                <ul className="social">
-                                    <li><b>Follow us:</b></li>
-                                    <li>
-                                        <a href="https://www.twitter.com/" target="_blank">
-                                            <i className="flaticon-twitter"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="https://www.instagram.com/" target="_blank">
-                                            <i className="flaticon-instagram"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="https://www.facebook.com/" target="_blank">
-                                            <i className="flaticon-facebook"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="https://www.linkedin.com/" target="_blank">
-                                            <i className="flaticon-linkedin"></i>
-                                        </a>
-                                    </li>
-                                </ul>
+                              
                             </div>
                         </div>
 
@@ -54,6 +32,7 @@ const Footer = () => {
                                             <a>Home</a>
                                         </Link>
                                     </li>
+                                    
                                     <li>
                                         <Link href="/funding">
                                             <a>Funding</a>

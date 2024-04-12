@@ -52,7 +52,7 @@ const WhyPeopleChooseUsTwo = () => {
                                         <i className="flaticon-guarantee"></i>
                                     </div>
                                     <h3>Motor Vehicle Accident Cases</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+                                    {/* <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p> */}
                                 </div>
                             </div>
         
@@ -62,7 +62,7 @@ const WhyPeopleChooseUsTwo = () => {
                                         <i className="flaticon-speed"></i>
                                     </div>
                                     <h3>Workplace Accidents and Negligence Claims</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+                                    {/* <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p> */}
                                 </div>
                             </div>
         
@@ -72,7 +72,7 @@ const WhyPeopleChooseUsTwo = () => {
                                         <i className="flaticon-reliability"></i>
                                     </div>
                                     <h3>Premises Liability Cases </h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+                                    {/* <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p> */}
                                 </div>
                             </div>
         
@@ -82,7 +82,7 @@ const WhyPeopleChooseUsTwo = () => {
                                         <i className="flaticon-user-experience"></i>
                                     </div>
                                     <h3>Medical Malpractice Cases</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+                                    {/* <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p> */}
                                 </div>
                             </div>
                         </div>

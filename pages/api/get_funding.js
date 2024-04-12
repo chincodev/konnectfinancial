@@ -4,14 +4,30 @@ const resend = new Resend('re_5utYkhKS_EuwCenb1ar2ik5XcmWBNaftN');
 
 export default async (req, res) => {
 
-    const {name, email, number, subject, text} = req.body;
+    const {
+        fullname,
+        phone_number,
+        email,
+        date,
+        amount,
+        received,
+        readed
+    } = req.body;
     
     try {
         const {data, error} = await resend.emails.send({
             from: 'onboarding@resend.dev',
             to: 'michaelekimyan@gmail.com',
-            subject: 'Contact from kaz.com',
-            html: `<p>Name: ${name}</p><br><br/><p>Email: ${email}</p><br><br/><p>Number: ${number}</p><br><br/><p>Subject: ${subject}</p><br><br/><p>Text: ${text}</p>`
+            subject: 'Get Funding from kaz.com',
+            html: `
+                <p>Full name: ${fullname}</p>
+                <p>Phone Number: ${phone_number}</p>
+                <p>Email: ${email}</p>
+                <p>Date Of Accident: ${date}</p>
+                <p>Funding Amount Requested: ${amount}</p>
+                <p>Have You Received Funding Before?: ${received}</p>
+                <p>Readed Plicies and TOS: ${readed}</p>
+            `
         });
         
         if (error) {

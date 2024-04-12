@@ -25,7 +25,7 @@ export default class FaqContent extends Component {
             <div className="faq-area ptb-100">
                 <div className="container">
                     <div className="section-title">
-                        <h2>Frequently ask question</h2>
+                        <h2>Frequently Asked Questions</h2>
                         <b>Just find your answers below</b>
                     </div>
 
