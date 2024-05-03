@@ -210,7 +210,7 @@ const ContactForm = () => {
                                 </div>
                                 <h4>Email</h4>
                                 <span>
-                                    <a href="mailto:hello@leza.com">hello@leza.com</a>
+                                    <a href="mailto:support@konnectfinancial.com">Support@konnectfinancial.com</a>
                                 </span>
                                 <span>
                                     <a href="#">Skype: example</a>

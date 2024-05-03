@@ -8,7 +8,7 @@ const CallUs = () => {
                     <div className="row align-items-center">
                         <div className="col-lg-7">
                             <div className="content">
-                                <h3>Call us now to see how Kaz Enterprises can provide assistance with your case.</h3>
+                                <h3>Call us now to see how Konnect Financial can provide assistance with your case.</h3>
                             </div>
                         </div>
 

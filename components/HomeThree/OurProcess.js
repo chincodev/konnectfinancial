@@ -11,8 +11,8 @@ const OurProcess = () => {
                                 <div className="icon">
                                     <i className="flaticon-loan"></i>
                                 </div>
-                                <span>Legal</span>
-                                <p>Financial Assistance Now</p>
+                                <strong><span>Apply</span></strong>
+                                <p>Complete our quick and easy application.</p>
                             </div>
                         </div>
 
@@ -21,8 +21,8 @@ const OurProcess = () => {
                                 <div className="icon">
                                     <i className="flaticon-satisfaction"></i>
                                 </div>
-                                <span>Secure</span>
-                                <p>Pre-Settlement Funding</p>
+                                <strong><span>Get Approved</span></strong>
+                                <p>Wait for Approval. Approval usually takes up to 24 hours.</p>
                             </div>
                         </div>
 
@@ -31,8 +31,8 @@ const OurProcess = () => {
                                 <div className="icon">
                                     <i className="flaticon-document"></i>
                                 </div>
-                                <span>Stress-Free</span>
-                                <p>Case Support</p>
+                                <strong><span>Receive Funding</span></strong>
+                                <p>Receive $500 - $100,000 in as little as 24 hours after approval!</p>
                             </div>
                         </div>
                     </div>

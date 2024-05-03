@@ -16,7 +16,7 @@ const Footer = () => {
                                     </Link>
                                 </div>
 
-                                <p>LExperienced legal funding provider offering quick, transparent solutions. Empowering plaintiffs with fast cash for pending settlements. Reliable and customer-focused.</p>
+                                <p>Konnect Financial offers quick, easy, and transparent funding solutions to Plaintiffs with pending settlements.</p>
 
                               
                             </div>
@@ -108,10 +108,7 @@ const Footer = () => {
                                 <div className="info-contact">
                                     <i className="flaticon-mail"></i>
                                     <span>
-                                        <a href="mailto:hello@leza.com">hello@leza.com</a>
-                                    </span>
-                                    <span>
-                                        <a href="#">Skype: example</a>
+                                        <a style={{paddingTop:'0.3rem'}} href="mailto:support@konnectfinancial.com">Support@konnectfinancial.com</a>
                                     </span>
                                 </div>
 

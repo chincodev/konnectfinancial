@@ -1165,13 +1165,13 @@ Approvals Area CSS
 }
 
 .approvals-content::before {
-  position: absolute;
+  /* position: absolute;
   right: 0;
   top: 0;
   width: 1px;
   content: '';
   height: 100%;
-  background-color: #9ca2a0;
+  background-color: #9ca2a0; */
 }
 
 .approvals-content .icon {

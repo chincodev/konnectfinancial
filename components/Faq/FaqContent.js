@@ -55,8 +55,8 @@ export default class FaqContent extends Component {
                             <div id="tab1" className="tabs_item">
                                 <ul className="question-list">
                                     <li>
-                                        <h4 className="title">What happens if I get pre-settlement funding from Kaz Enterprises, but later I need more?</h4>
-                                        <p>It's not uncommon for individuals who receive pre-settlement funding from Kaz Enterprises to find that the initial amount isn't sufficient, especially if their case extends longer than expected. We recommend applying for only the necessary amount initially to avoid financial strain. However, if circumstances change and additional funding is needed due to ongoing struggles during the pending case, we're open to considering secondary requests for assistance.</p>
+                                        <h4 className="title">What happens if I get pre-settlement funding from Konnect Financial, but later I need more?</h4>
+                                        <p>It's not uncommon for individuals who receive pre-settlement funding from Konnect Financial to find that the initial amount isn't sufficient, especially if their case extends longer than expected. We recommend applying for only the necessary amount initially to avoid financial strain. However, if circumstances change and additional funding is needed due to ongoing struggles during the pending case, we're open to considering secondary requests for assistance.</p>
                                     </li>
                                     
                                     <li>
