@@ -38,11 +38,11 @@ const Footer = () => {
                                             <a>Funding</a>
                                         </Link>
                                     </li>
-                                    <li>
+                                    {/* <li>
                                         <Link href="/loan-calculator">
                                             <a>Calculator</a>
                                         </Link>
-                                    </li>
+                                    </li> */}
                                     <li>
                                         <Link href="/FAQ">
                                             <a>FAQ</a>

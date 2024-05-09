@@ -56,7 +56,7 @@ const Feedback = () => {
                             <h4>Markus Twain</h4>
                             <span>React Developer</span>
                         </div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.</p>
+                        <p>Konnect made a stressful legal battle much more manageable. Their funding helped me cover expenses while waiting for my case to settle.</p>
                         <div className="icon">
                             <i className="flaticon-right-quote"></i>
                         </div>
@@ -68,7 +68,7 @@ const Feedback = () => {
                             <h4>Jessica Molony</h4>
                             <span>Angular Developer</span>
                         </div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.</p>
+                        <p>Konnect Financial's funding  was a lifeline during a challenging time. Their professionalism and efficiency ensured I received the funds I needed promptly</p>
                         <div className="icon">
                             <i className="flaticon-right-quote"></i>
                         </div>
@@ -80,7 +80,7 @@ const Feedback = () => {
                             <h4>Harry Nelis</h4>
                             <span>Technology Officer</span>
                         </div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.</p>
+                        <p>Konnect Financial exceeded my expectations with their funding service. Their team was responsive, transparent, and easy to work with.</p>
                         <div className="icon">
                             <i className="flaticon-right-quote"></i>
                         </div>

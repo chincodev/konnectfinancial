@@ -50,7 +50,7 @@ const FeedbackStyleThree = () => {
 
                             <div className="col-lg-9">
                                 <div className="clients-info-text">
-                                    <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.”</p>
+                                    <p>“Konnect made a stressful legal battle much more manageable. Their funding helped me cover expenses while waiting for my case to settle.”</p>
                                     <h3>Debra C. Cowen</h3>
                                     <span>Founder</span>
                                 </div>
@@ -72,7 +72,7 @@ const FeedbackStyleThree = () => {
 
                             <div className="col-lg-9">
                                 <div className="clients-info-text">
-                                    <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.”</p>
+                                    <p>“Konnect Financial's funding  was a lifeline during a challenging time. Their professionalism and efficiency ensured I received the funds I needed promptly.”</p>
                                     <h3>Debra C. Cowen</h3>
                                     <span>Founder</span>
                                 </div>
@@ -94,7 +94,7 @@ const FeedbackStyleThree = () => {
 
                             <div className="col-lg-9">
                                 <div className="clients-info-text">
-                                    <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.”</p>
+                                    <p>“Konnect Financial exceeded my expectations with their funding service. Their team was responsive, transparent, and easy to work with.”</p>
                                     <h3>Debra C. Cowen</h3>
                                     <span>Founder</span>
                                 </div>

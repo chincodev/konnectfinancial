@@ -37,7 +37,7 @@ const Index3 = () => {
 
             <FeedbackStyleThree />
 
-            <ApplyForLoanStyleOne />
+            {/* <ApplyForLoanStyleOne /> */}
 
             {/* <PartnerStyleThree /> */}
 

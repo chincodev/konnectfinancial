@@ -64,11 +64,11 @@ const Navbar = () => {
                                             <a onClick={toggleNavbar} className="nav-link">Funding</a>
                                         </Link>
                                     </li>
-                                    <li className="nav-item">
+                                    {/* <li className="nav-item">
                                         <Link href="/loan-calculator" activeClassName="active">
                                             <a onClick={toggleNavbar} className="nav-link">Calculator</a>
                                         </Link>
-                                    </li>
+                                    </li> */}
                                     <li className="nav-item">
                                         <Link href="/faq" activeClassName="active">
                                             <a onClick={toggleNavbar} className="nav-link">FAQ</a>
