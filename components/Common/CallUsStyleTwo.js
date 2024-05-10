@@ -16,7 +16,7 @@ const CallUsStyleTwo = () => {
                             <div className="solution-info">
                                 <i className="flaticon-telephone"></i>
                                 <h3>
-                                    <a href="tel:15143125678">+1 (514) 312-5678</a>
+                                    <a href="tel:18336604343">+1 (833) 660-4343</a>
                                 </h3>
                             </div>
                         </div>

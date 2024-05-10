@@ -115,10 +115,10 @@ const Footer = () => {
                                 <div className="info-contact">
                                     <i className="flaticon-telephone"></i>
                                     <span>
-                                        <a href="tel:1514312-6688">+1 (514) 312-5678</a>
+                                        <a href="tel:8336604343">+1 (833) 660-4343</a>
                                     </span>
                                     <span>
-                                        <a href="tel:1514312-6688">+1 (514) 312-6688</a>
+                                        <a href="tel:8336604343">+1 (833) 660-4343</a>
                                     </span>
                                 </div>
                             </div>
