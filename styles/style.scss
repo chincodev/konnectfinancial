@@ -65,7 +65,7 @@ Default CSS
 
 $main-font-family: 'Roboto', sans-serif;
 $heading-font-family: 'Rubik', sans-serif;
-$main-color: #e73c3e;
+$main-color: #00c77a;
 $optional-color: #e60027;
 $white-color: #ffffff;
 $black-color: #111111;
@@ -1129,7 +1129,7 @@ Approvals Area CSS
 }
 
 .approvals-item {
-    background-color: #f5f4ef;
+    background-color: #eff5f5;
     padding: {
         left: 50px;
         right: 50px;
@@ -1653,7 +1653,7 @@ Deserve Area CSS
     .rate-btn {
         margin-top: 25px;
         .default-btn {
-            background-color: #a21e1f;
+            background-color: #007d4d;
             color: $white-color;
             width: 100%;
             padding: 15px 30px;
@@ -2014,7 +2014,7 @@ Partner Area CSS
     }
 
     &.bg-f5f4ef {
-        background-color: #f5f4ef;
+        background-color: #eff5f5;
     }
 }
 
@@ -2613,7 +2613,7 @@ Team Area CSS
 Fun Facts Area CSS
 =================================================*/
 .fun-facts-area {
-    background-color: #f5f4ef;
+    background-color: #eff5f5;
 }
 
 .col-lg-3 {

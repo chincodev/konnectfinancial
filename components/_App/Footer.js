@@ -131,7 +131,7 @@ const Footer = () => {
                 <div className="container">
                     <div className="copy-right-content">
                         <p>
-                            Copyright &copy; {currentYear} Kaz.
+                            Copyright &copy; {currentYear} Konnect Financial Inc.
                              {/* Designed By <a href="https://envytheme.com/" target="_blank">EnvyTheme</a> */}
                         </p>
                     </div>
