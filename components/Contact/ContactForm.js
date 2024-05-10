@@ -62,16 +62,14 @@ const ContactForm = () => {
         <div className="contact-area ptb-100">
             <div className="container">
                 <div className="section-title">
-                    <span>Let's discuss</span>
-                    <h2>Whatever question you have, please feel free to ask.</h2>
+                    <span>Have questions?</span>
+                    <h2>Get In Touch With Our Team</h2>
                 </div>
 
                 <div className="row">
                     <div className="col-lg-8 col-md-6">
                         <div className="contact-form">
-                            <div className="title">
-                                <h3>Write Us</h3>
-                            </div>
+                      
 
                             <form onSubmit={handleSubmit}>
                                 <div className="row">
@@ -212,9 +210,7 @@ const ContactForm = () => {
                                 <span>
                                     <a href="mailto:support@konnectfinancial.com">Support@konnectfinancial.com</a>
                                 </span>
-                                <span>
-                                    <a href="#">Skype: example</a>
-                                </span>
+                      
                             </div>
                         </div>
                     </div>

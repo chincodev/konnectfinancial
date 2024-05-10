@@ -87,7 +87,7 @@ const ApplyNow = () => {
             <div className="apply-area ptb-100">
                 <div className="container">
                     <div className="apply-title">
-                        <h3>Loan Application</h3>
+                        <h3>Apply for Funding</h3>
                     </div>
 
                     <form onSubmit={handleSubmit}>
