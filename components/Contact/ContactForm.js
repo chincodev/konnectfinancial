@@ -197,9 +197,7 @@ const ContactForm = () => {
                                 <span>
                                     <a href="tel:8336604343">+1 (833) 660-4343</a>
                                 </span>
-                                <span>
-                                    <a href="tel:8336604343">+1 (833) 660-4343</a>
-                                </span>
+                              
                             </div>
 
                             <div className="info-box">
