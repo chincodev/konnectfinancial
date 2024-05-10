@@ -35,9 +35,9 @@ const Index3 = () => {
 
             <CompanyValue />
 
-            <FeedbackStyleThree />
+            {/* <FeedbackStyleThree /> */}
 
-            {/* <ApplyForLoanStyleOne /> */}
+            <ApplyForLoanStyleOne />
 
             {/* <PartnerStyleThree /> */}
 

@@ -2,6 +2,60 @@ import React from 'react';
 import Link from 'next/link';
 
 const ApplyForLoanStyleOne = () => {
+
+    const INITIAL_STATE = {
+        first_name: "",
+        email: "",
+        phone: "",
+        last_name: "",
+        state: "",
+        case_type: ""
+    };
+
+    const [contact, setContact] = React.useState(INITIAL_STATE);
+
+    const [ sending, setSending ] = React.useState(false)
+    const [ error, setError ] = React.useState(false)
+
+    
+    const handleChange = e => {
+        const { name, value } = e.target;
+        setContact(prevState => ({ ...prevState, [name]: value }));
+        // console.log(contact)
+    }
+
+    const handleSubmit = async e => {
+        e.preventDefault();
+        try {
+            setSending(true);
+            const url = `${window.location.origin}/api/funding_application`;
+            const { 
+                first_name,
+                email,
+                phone,
+                last_name,
+                state,
+                case_type
+            } = contact;
+            const payload = { 
+                first_name,
+                email,
+                phone,
+                last_name,
+                state,
+                case_type
+             };
+            await axios.post(url, payload);
+            setContact(INITIAL_STATE);
+            alertContent();
+            setSending(false);
+            setError(false)
+        } catch (error) {
+            console.log(error);
+            setError(true)
+            setSending(false);
+        }
+    };
     return (
         <div className="deserve-area ptb-100">
             <div className="container">
@@ -53,50 +107,86 @@ const ApplyForLoanStyleOne = () => {
                     <div className="col-lg-6">
                         <div className="rate-form">
                             <div className="rate-content">
-                                <span>Calculate your rate</span>
-                                <h3>How much do you need?</h3>
+                             
+                                <h3>Apply For Funding</h3>
                             </div>
 
-                            <form className="form">
+                            <form onSubmit={handleSubmit}>
                                 <div className="form-group">
-                                    <label>Type The Amount Of Money You Need</label>
-                                    <input type="text" className="form-control" placeholder="$1000" />
+                                    <label>First Name</label>
+                                    <input 
+                                        type="text" 
+                                        name="first_name" 
+                                        className="form-control" 
+                                        value={contact.first_name}
+                                        onChange={handleChange} 
+                                        required 
+                                    />
                                 </div>
 
                                 <div className="form-group">
-                                    <label>How much is your case worth?</label>
-                                    <input type="text" className="form-control" placeholder="$1000" />
-                                    {/* <select className="form-select">
-                                        <option value="5">1 month</option>
-                                        <option value="1">2 month</option>
-                                        <option value="2">3 month</option>
-                                        <option value="0">4 month</option>
-                                        <option value="3">6 month</option>
-                                        <option value="3">1 Year</option>
-                                        <option value="0">2 Years</option>
-                                        <option value="3">3 Years</option>
-                                    </select> */}
+                                    <label>Last Name</label>
+                                    <input
+                                        type="text" 
+                                        name="last_name" 
+                                        className="form-control" 
+                                        value={contact.last_name}
+                                        onChange={handleChange} 
+                                        required 
+                                    />
                                 </div>
 
                                 <div className="form-group">
-                                    <label>What Is The Attorneys Fee Percentage?</label>
-                                    <input type="text" className="form-control" placeholder="10%" />
+                                    <label>Email Address</label>
+                                    <input 
+                                        type="email" 
+                                        name="email" 
+                                        className="form-control" 
+                                        value={contact.email}
+                                        onChange={handleChange} 
+                                        required 
+                                    />
                                 </div>
 
                                 <div className="form-group">
-                                    <label>How Many Months Is The Case Expected To Last?</label>
-                                    <input type="text" className="form-control" placeholder="6 month" />
+                                    <label>Phone Number</label>
+                                    <input 
+                                            type="text" 
+                                            name="phone" 
+                                            className="form-control" 
+                                            value={contact.phone}
+                                            onChange={handleChange} 
+                                            required 
+                                        />
                                 </div>
 
                                 <div className="form-group">
-                                    <label>The total you will pay</label>
-                                    <input type="text" className="form-control" placeholder="$11200" />
+                                    <label>State</label>
+                                    <input
+                                        type="text" 
+                                        name="state" 
+                                        className="form-control" 
+                                        value={contact.state}
+                                        onChange={handleChange} 
+                                        required 
+                                    />
                                 </div>
 
+                                <div className="form-group">
+                                    <label>Case Type</label>
+                                    <select className="form-select" onChange={handleChange} name="case_type" value={contact.case_type}>
+                                        <option value="Auto Accident">Auto Accident</option>
+                                        <option value="Slip and Fall">Slip and Fall</option>
+                                        <option value="Worker's Compensation">Worker's Compensation</option>
+                                        <option value="Dog Bite">Dog Bite</option>
+                                        <option value="Wrongful Death">Wrongful Death</option>
+                                        <option value="Medical Malpractice">Medical Malpractice</option>
+                                    </select>
+                                </div>
                                 <div className="rate-btn">
-                                    <button type="submit" className="btn default-btn">
-                                        Apply for this loan <span></span>
-                                    </button>
+                                <button type="submit" className="btn default-btn">
+                            {sending ? 'Sending...' : error ? "Error sending..." : 'Apply Now'}<span></span>
+                            </button>
                                 </div>
                             </form>
                         </div>
