@@ -8,6 +8,12 @@ import Footer from '../components/_App/Footer';
 const Faq = () => {
     return (
         <>
+
+<Head>
+              <title>Frequently Asked Questions - Konnect Financial</title>
+              <meta name="description" content="Find answers to frequently asked questions." />
+              <link rel="icon" href="/assets/images/logo-sm.png" />
+            </Head>
             <Navbar />
 
             <PageBanner 

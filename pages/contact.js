@@ -7,6 +7,12 @@ import Footer from '../components/_App/Footer';
 const Contact = () => {
     return (
         <>
+
+<Head>
+              <title>Contact Us - Konnect Financia</title>
+              <meta name="description" content="Get paid before your lawsuit settles. Contact our team if you have any questions." />
+              <link rel="icon" href="/assets/images/logo-sm.png" />
+            </Head>
             <Navbar />
             
             <PageBanner 

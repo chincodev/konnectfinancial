@@ -13,10 +13,16 @@ import ApplyForLoanStyleOne from '../components/Common/ApplyForLoanStyleOne';
 import PartnerStyleThree from '../components/Common/PartnerStyleThree';
 import RecentNews from '../components/Common/RecentNews';
 import Footer from '../components/_App/Footer';
+import Head from "next/head";
 
 const Index3 = () => {
     return (
         <>
+             <Head>
+              <title>Home - Konnect Financial</title>
+              <meta name="description" content="Apply for pre-settlement legal funding at Konnect Financial! Get paid before your case settles." />
+              <link rel="icon" href="/assets/images/logo-sm.png" />
+            </Head>
             <Navbar />
 
             <MainBanner />
