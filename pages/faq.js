@@ -4,6 +4,7 @@ import PageBanner from '../components/Common/PageBanner';
 import FaqContent from '../components/Faq/FaqContent';
 import CallUsStyleTwo from '../components/Common/CallUsStyleTwo';
 import Footer from '../components/_App/Footer';
+import Head from 'next/head';
 
 const Faq = () => {
     return (
