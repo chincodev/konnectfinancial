@@ -2764,6 +2764,9 @@ Team Area CSS
   visibility: visible;
 }
 
+.deserve-area {
+  background-color: #eff5f5 !important;
+}
 /*================================================
 Fun Facts Area CSS
 =================================================*/

@@ -21,22 +21,12 @@ const alertContent = () => {
 
 const ApplyNow = () => {
     const INITIAL_STATE = {
-        loan_amount: "",
         first_name: "",
-        dob: "",
         address: "",
         email: "",
         phone: "",
-        designation: "",
-        purpose: "",
-        income: "",
         last_name: "",
-        gender: "",
-        country: "",
-        email_alt: "",
-        company_name: "",
-        company_address: "",
-        type: "",
+        case_type: ""
     };
     const [contact, setContact] = React.useState(INITIAL_STATE);
 
@@ -47,7 +37,6 @@ const ApplyNow = () => {
     const handleChange = e => {
         const { name, value } = e.target;
         setContact(prevState => ({ ...prevState, [name]: value }));
-        // console.log(contact)
     }
 
     const handleSubmit = async e => {
@@ -56,40 +45,20 @@ const ApplyNow = () => {
             setSending(true);
             const url = `${window.location.origin}/api/loan_application`;
             const { 
-                loan_amount,
                 first_name,
-                dob,
                 address,
                 email,
                 phone,
-                designation,
-                purpose,
-                income,
                 last_name,
-                gender,
-                country,
-                email_alt,
-                company_name,
-                company_address,
-                type,
+                case_type
             } = contact;
             const payload = { 
-                loan_amount,
                 first_name,
-                dob,
                 address,
                 email,
                 phone,
-                designation,
-                purpose,
-                income,
                 last_name,
-                gender,
-                country,
-                email_alt,
-                company_name,
-                company_address,
-                type,
+                case_type
              };
             await axios.post(url, payload);
             setContact(INITIAL_STATE);
@@ -125,17 +94,6 @@ const ApplyNow = () => {
                         <div className="row">
                             <div className="col-lg-6">
                                 <div className="apply-form">
-                                    <div className="form-group">
-                                        <label>Desired Loan Amount*</label>
-                                        <input 
-                                            type="text" 
-                                            name="loan_amount" 
-                                            className="form-control" 
-                                            value={contact.loan_amount}
-                                            onChange={handleChange} 
-                                            required 
-                                        />
-                                    </div>
 
                                     <div className="form-group">
                                         <label>Firstname*</label>
@@ -149,29 +107,6 @@ const ApplyNow = () => {
                                         />
                                     </div>
 
-                                    <div className="form-group">
-                                        <label>Date of Birth*</label>
-                                        <input 
-                                            type="date" 
-                                            name="dob" 
-                                            className="form-control" 
-                                            value={contact.dob}
-                                            onChange={handleChange} 
-                                            required 
-                                        />
-                                    </div>
-
-                                    <div className="form-group">
-                                        <label>Address*</label>
-                                        <input 
-                                            type="text" 
-                                            name="address" 
-                                            className="form-control" 
-                                            value={contact.address}
-                                            onChange={handleChange} 
-                                            required  
-                                        />
-                                    </div>
 
                                     <div className="form-group">
                                         <label>Email Address*</label>
@@ -185,6 +120,41 @@ const ApplyNow = () => {
                                         />
                                     </div>
 
+
+                                    <div className="form-group">
+                                        <label>State*</label>
+                                        <input 
+                                            type="text" 
+                                            name="state" 
+                                            className="form-control" 
+                                            value={contact.address}
+                                            onChange={handleChange} 
+                                            required  
+                                        />
+                                    </div>
+
+                               
+
+
+
+                                </div>
+                            </div>
+
+                            <div className="col-lg-6">
+                                <div className="apply-form">
+
+                            
+                                <div className="form-group">
+                                        <label>Lastname*</label>
+                                        <input
+                                            type="text" 
+                                            name="last_name" 
+                                            className="form-control" 
+                                            value={contact.last_name}
+                                            onChange={handleChange} 
+                                            required 
+                                        />
+                                    </div>
                                     <div className="form-group">
                                         <label>Phone Number*</label>
                                         <input 
@@ -196,129 +166,19 @@ const ApplyNow = () => {
                                             required 
                                         />
                                     </div>
-
                                     <div className="form-group">
-                                        <label>Designation*</label>
-                                        <input 
-                                             type="text" 
-                                             name="designation" 
-                                             className="form-control" 
-                                             value={contact.designation}
-                                             onChange={handleChange} 
-                                             required 
-                                        />
-                                    </div>
-
-                                    <div className="form-group">
-                                        <label>Purpose of Loan*</label>
-                                        <input
-                                            type="text" 
-                                            name="purpose" 
-                                            className="form-control" 
-                                            value={contact.purpose}
-                                            onChange={handleChange} 
-                                            required 
-                                        />
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div className="col-lg-6">
-                                <div className="apply-form">
-                                    <div className="form-group">
-                                        <label>Annual Income*</label>
-                                        <input
-                                            type="text" 
-                                            name="income" 
-                                            className="form-control" 
-                                            value={contact.income}
-                                            onChange={handleChange} 
-                                            required 
-                                        />
-                                    </div>
-
-                                    <div className="form-group">
-                                        <label>Lastname*</label>
-                                        <input
-                                            type="text" 
-                                            name="last_name" 
-                                            className="form-control" 
-                                            value={contact.last_name}
-                                            onChange={handleChange} 
-                                            required 
-                                        />
-                                    </div>
-
-                                    <div className="form-group">
-                                        <label>Gender</label>
-                                        <select className="form-select" onChange={handleChange} name="gender" value={contact.gender}>
-                                            <option value="1">Select the Gender</option>
-                                            <option value="2">Male</option>
-                                            <option value="3">Female</option>
+                                        <label>Case Type*</label>
+                                        <select className="form-select" onChange={handleChange} name="case_type" value={contact.case_type}>
+                                            <option value="Auto Accident">Auto Accident</option>
+                                            <option value="Slip and Fall">Slip and Fall</option>
+                                            <option value="Worker's Compensation">Worker's Compensation</option>
+                                            <option value="Dog Bite">Dog Bite</option>
+                                            <option value="Wrongful Death">Wrongful Death</option>
+                                            <option value="Medical Malpractice">Medical Malpractice</option>
                                         </select>
                                     </div>
 
-                                    <div className="form-group">
-                                        <label>Country*</label>
-                                        <select className="form-select" onChange={handleChange} name="country" value={contact.country} required>
-                                            <option value="0">Select the Country</option>
-                                            <option value="1">United Arab Emirates</option>
-                                            <option value="2">China</option>
-                                            <option value="3">United Kingdom</option>
-                                            <option value="4">Germany</option>
-                                            <option value="5">France</option>
-                                            <option value="6">Japan</option>
-                                        </select>
-                                    </div>
-
-                                    <div className="form-group">
-                                        <label>Alternative Email Address*</label>
-                                        <input
-                                            type="text" 
-                                            name="email_alt" 
-                                            className="form-control" 
-                                            value={contact.email_alt}
-                                            onChange={handleChange} 
-                                            required 
-                                        />
-                                    </div>
-
-                                    <div className="form-group">
-                                        <label>Company Name</label>
-                                        <input
-                                            type="text" 
-                                            name="company_name" 
-                                            className="form-control" 
-                                            value={contact.company_name}
-                                            onChange={handleChange} 
-                                          
-                                        />
-                                    </div>
-
-                                    <div className="form-group">
-                                        <label>Company Address</label>
-                                        <input
-                                            type="text" 
-                                            name="company_address" 
-                                            className="form-control" 
-                                            value={contact.company_address}
-                                            onChange={handleChange} 
-                                 
-                                        />
-                                    </div>
-
-                                    <div className="form-group">
-                                        <label>Type of Loan</label>
-                                        <select className="form-select" onChange={handleChange} name="type" value={contact.type}>
-                                            <option value="0">Choose the Loan</option>
-                                            <option value="1">Agricultural Loan</option>
-                                            <option value="2">Business Loan</option>
-                                            <option value="3">House Loan</option>
-                                            <option value="4">Personal Loan</option>
-                                            <option value="5">Education Loan</option>
-                                            <option value="6">Payday Loan</option>
-                                        </select>
-                                    </div>
+                                   
                                 </div>
                             </div>
                         </div>
