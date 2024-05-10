@@ -129,7 +129,7 @@ const Navbar = () => {
                                             <i className="flaticon-telephone"></i>
                                             <span>Call Now</span>
                                             <p>
-                                                <a href="tel:1514312-5678">+1 (514) 312-5678</a>
+                                                <a href="tel:18336604343">+1 (833) 660-4343</a>
                                             </p>
                                         </div>
                                     </div>
