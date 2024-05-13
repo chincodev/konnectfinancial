@@ -14,20 +14,20 @@ const Layout = ({ children }) => {
     return(
         <>
             <Head>
-                <title>Leza - React Next.js Loans & Funding Agency Template</title>
+                <title>Konnect Financial - Funding Service</title>
                 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
                 <meta 
                     name="description" 
-                    content="Leza - React Next.js Loans & Funding Agency Template" 
+                    content="Konnect Financial - Funding Service" 
                 />
                 <meta 
                     name="og:title" 
                     property="og:title" 
-                    content="Leza - React Next.js Loans & Funding Agency Template"
+                    content="Konnect Financial - Funding Service"
                 ></meta>
                 <meta 
                     name="twitter:card" 
-                    content="Leza - React Next.js Loans & Funding Agency Template"
+                    content="Konnect Financial - Funding Service"
                 ></meta>
                 <link rel="canonical" href="https://leza-react.envytheme.com/"></link>
             </Head>
