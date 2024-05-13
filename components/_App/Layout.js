@@ -14,20 +14,20 @@ const Layout = ({ children }) => {
     return(
         <>
             <Head>
-                <title>Konnect Financial - Funding Service</title>
+                <title>Konnect Financial - Funding Services</title>
                 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
                 <meta 
                     name="description" 
-                    content="Konnect Financial - Funding Service" 
+                    content="Konnect Financial - Funding Services" 
                 />
                 <meta 
                     name="og:title" 
                     property="og:title" 
-                    content="Konnect Financial - Funding Service"
+                    content="Konnect Financial - Funding Services"
                 ></meta>
                 <meta 
                     name="twitter:card" 
-                    content="Konnect Financial - Funding Service"
+                    content="Konnect Financial - Funding Services"
                 ></meta>
                 <link rel="canonical" href="https://leza-react.envytheme.com/"></link>
             </Head>

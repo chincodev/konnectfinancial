@@ -1,7 +1,7 @@
 {
     "name": "leza",
     "version": "1.5.0",
-    "description": "Konnect Financial - Funding Service",
+    "description": "Konnect Financial - Funding Services",
     "main": "index.js",
     "scripts": {
         "dev": "next dev",
