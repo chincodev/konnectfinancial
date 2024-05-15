@@ -26,7 +26,6 @@ const ApplyForFunding = () => {
         date: "",
         amount: "",
         received: "",
-        readed: false
     };
     const [contact, setContact] = React.useState(INITIAL_STATE);
 
@@ -52,7 +51,6 @@ const ApplyForFunding = () => {
                 date,
                 amount,
                 received,
-                readed
             } = contact;
             const payload = { 
                 fullname,
@@ -61,7 +59,6 @@ const ApplyForFunding = () => {
                 date,
                 amount,
                 received,
-                readed
              };
             await axios.post(url, payload);
             setContact(INITIAL_STATE);
@@ -171,20 +168,7 @@ const ApplyForFunding = () => {
                             </div>
                         </div>
 
-                        <div className="buy-checkbox-btn">
-                            <div className="item">
-                                <input className="inp-cbx" id="cbx" type="checkbox" value={contact.readed} required/>
-                                <label className="cbx" htmlFor="cbx">
-                                    <span>
-                                        <svg width="12px" height="10px" viewBox="0 0 12 10">
-                                            <polyline points="1.5 6 4.5 9 10.5 1"></polyline>
-                                        </svg>
-                                    </span>
-                                    <span>I have read and agree to Clearbanc’s <Link href="/privacy-policy"><a>Privacy Policy</a></Link> and  <Link href="/terms-conditions"><a>Terms of Service</a></Link></span>
-                                </label>
-                            </div>
-                        </div>
-
+         
                         <div className="funding-btn">
                             <button type="submit" className="btn default-btn">
                                 Get Funding <span></span>
