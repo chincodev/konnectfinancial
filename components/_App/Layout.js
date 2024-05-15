@@ -29,7 +29,7 @@ const Layout = ({ children }) => {
                     name="twitter:card" 
                     content="Konnect Financial - Funding Services"
                 ></meta>
-                <link rel="canonical" href="https://leza-react.envytheme.com/"></link>
+                <link rel="canonical" href="https://konnectfinancial.com/"></link>
             </Head>
 
             {children}
