@@ -8,8 +8,8 @@ export default async (req, res) => {
     
     try {
         const {data, error} = await resend.emails.send({
-            from: 'onboarding@resend.dev',
-            to: 'michaelekimyan@gmail.com',
+            from: 'Konnect@konnectfinancial.com',
+            to: 'support@konnectfinancial.com',
             subject: 'Contact from kaz.com',
             html: `<p>Name: ${name}</p><br><br/><p>Email: ${email}</p><br><br/><p>Number: ${number}</p><br><br/><p>Subject: ${subject}</p><br><br/><p>Text: ${text}</p>`
         });
