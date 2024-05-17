@@ -125,7 +125,7 @@ const ApplyNow = () => {
                                         <label>State*</label>
                                         <input 
                                             type="text" 
-                                            name="state" 
+                                            name="address" 
                                             className="form-control" 
                                             value={contact.address}
                                             onChange={handleChange} 

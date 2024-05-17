@@ -1,6 +1,7 @@
 import { Resend } from 'resend';
 
-const resend = new Resend('re_5utYkhKS_EuwCenb1ar2ik5XcmWBNaftN');
+const resend = new Resend(process.env.RESEND_API_KEY);
+
 
 export default async (req, res) => {
 
@@ -25,8 +26,8 @@ export default async (req, res) => {
     
     try {
         const {data, error} = await resend.emails.send({
-            from: 'onboarding@resend.dev',
-            to: 'michaelekimyan@gmail.com',
+            from: 'Konnect@konnectfinancial.com',
+            to: 'support@konnectfinancial.com',
             subject: 'Loan Application from kaz.com',
             html: `
                 <p>Loan Amount: ${loan_amount}</p>
