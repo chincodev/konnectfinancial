@@ -27,20 +27,13 @@ const WhyPeopleChooseUsTwo = () => {
                         <div className="choose-title">
                             <span>Quick and Easy Process</span>
                             <h2>Funding All Types Of Personal Injury Cases</h2>
-                            <p>We fund a wide variety of personal injury cases. Don’t see your case on the list? Give us a call at 818-818-8181 for a free consultation.</p>
+                            <p>We fund a wide variety of personal injury cases. Don’t see your case on the list? Give us a call at +1 (833) 660-4343 for a free consultation.</p>
                         </div>
 
                         <div className="choose-image">
                             <img src="/images/choose.png" alt="image" />
 
-                            <Link href="#play-video">
-                                <a
-                                    onClick={e => {e.preventDefault(); openModal()}}
-                                    className="video-btn popup-youtube"
-                                > 
-                                    <i className="flaticon-play-button"></i>
-                                </a>
-                            </Link>
+                        
                         </div>
                     </div>
 
