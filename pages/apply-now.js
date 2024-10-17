@@ -10,7 +10,7 @@ import baseUrl from '../utils/baseUrl'
 const alertContent = () => {
     MySwal.fire({
         title: 'Congratulations!',
-        text: 'Your message was successfully send and will back to you soon',
+        text:  'Thank you for filling out an application. A representative will reach out to you shortly.',
         icon: 'success',
         timer: 5000,
         timerProgressBar: true,
@@ -96,7 +96,7 @@ const ApplyNow = () => {
                                 <div className="apply-form">
 
                                     <div className="form-group">
-                                        <label>Firstname*</label>
+                                        <label>First name*</label>
                                         <input 
                                             type="text" 
                                             name="first_name" 
@@ -145,7 +145,7 @@ const ApplyNow = () => {
 
                             
                                 <div className="form-group">
-                                        <label>Lastname*</label>
+                                        <label>Last name*</label>
                                         <input
                                             type="text" 
                                             name="last_name" 
